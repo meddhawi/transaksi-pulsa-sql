@@ -1,5 +1,6 @@
 # transaksi-pulsa-sql
 
+```sql
 -- MySQL Script untuk Sistem Pembelian Pulsa di Tokopedia
 -- Drop database jika sudah ada (opsional)
 -- DROP DATABASE IF EXISTS sistem_topup_pulsa;
@@ -172,6 +173,5 @@ CREATE TABLE notifikasi (
     INDEX idx_notifikasi_read (is_read),
     INDEX idx_notifikasi_jenis (jenis_notifikasi)
 );
-
-
+```
 
